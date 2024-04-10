@@ -1,16 +1,18 @@
 {
-    "name": "gr421shpean/pop-it-mvc1",
+    "name": "gr421shpean/pop-it-mvc",
+    "description": "Simple mvc freamework",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "gr421shpean",
-            "email": "eshpiger33@gmail.com"
+            "name": "gr421shpean"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4 | ^8.0"
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "^12.0@dev",
+        "illuminate/events": "^12.0@dev"
     },
     "autoload": {
         "psr-4": {
