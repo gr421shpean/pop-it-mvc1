@@ -8,8 +8,12 @@ use Model\User;
 
 class Employees
 {
-    public function addStudents(Request $request): string
+    public function addPatients(Request $request): string
     {
         return new View('employees.add_patients');
+    }
+    public function addDoctors(Request $request): string
+    {
+        return new View('employees.add_add_doctors');
     }
 }
