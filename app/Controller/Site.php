@@ -3,6 +3,7 @@
 namespace Controller;
 
 use Src\Request;
+use Model\Post;
 use Src\View;
 use Model\User;
 use Src\Auth\Auth;
@@ -25,6 +26,14 @@ class Site
 
 
 
+    public function signup(Request $request): string
+    {
+        if ($request->method === 'POST' && User::create($request->all())) {
+            app()->route->redirect('/hello');
+        }
+        return new View('site.signup');
+    }
+
     public function login(Request $request): string
     {
         //Если просто обращение к странице, то отобразить форму
@@ -43,6 +52,12 @@ class Site
     {
         Auth::logout();
         app()->route->redirect('/hello');
+    }
+    public function doctors(Request $request): string
+    {
+        
+        return new View('site.doctors');
+
     }
 
 

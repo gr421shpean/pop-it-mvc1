@@ -1,0 +1,48 @@
+
+
+body{
+    background-color:#76D966;
+    font-size: 20px;
+
+}
+main{
+    display: flex;
+    height: 820px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    background-color: white;
+    width: 630px;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+h2{
+    font-size: 30px;
+}
+button{
+    width: 194px;
+    height: 55px;
+    background-color:#76D966 ;
+    color: black;
+    font-size: 20px;
+
+
+
+    border: none;
+}
+input {
+    border: 1px solid #90ea82;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+
+
+}
+
