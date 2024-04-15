@@ -4,7 +4,7 @@
 
 <body>
     <form method="post">
-        <h2>Добавление нового сотрудника</h2>
+        <h2>Добавление сотрудника</h2>
         <input placeholder="Логин" type="text" name="login">
         <input placeholder="Пароль" type="password" name="password">
         <button class="button_add">Добавить</a></button>

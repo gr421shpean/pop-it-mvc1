@@ -85,6 +85,22 @@ class Site
         return new View('site.appointment');
 
     }
+    public function doctors_2(Request $request): string
+    {
+        return new View('site.doctors_2');
+
+    }
+    public function add_appointment(Request $request): string
+    {
+        return new View('site.add_appointment');
+
+    }
+    public function patients_2(Request $request): string
+    {
+        return new View('site.patients_2');
+
+    }
+
 
 
 

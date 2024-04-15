@@ -1,0 +1,52 @@
+.doctors{
+    display: flex;
+    justify-content: left;
+    margin-left: 45px;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 25px;
+}
+.post{
+    display: flex;
+    justify-content: left;
+    margin-left: 45px;
+    font-size: 30px;
+    gap: 15px;
+
+}
+.doctors_2_carts{
+    margin-top: 40px;
+    width: 700px;
+    left: 300px;
+    margin-left: 45px;
+    background-color: white;
+}
+.appointment{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    margin-left: 45px;
+    flex-direction: column;
+
+
+    gap: 40px;
+}
+.appointment_carts{
+    display: flex;
+
+    flex-direction: column;
+    gap: 1px;
+    font-size: 35px;
+    width: 700px;
+    height: 350px;
+    background-color: white;
+}
+
+.carts{
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+    flex-direction: row;
+    gap: 15px;
+
+}

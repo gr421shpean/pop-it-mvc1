@@ -7,6 +7,8 @@
         <input placeholder="Фамилия" type="text" name="lastname">
         <input placeholder="Отчество" type="text" name="patronymic">
         <input placeholder="Дата рождения" type="date" name="birth_day">
+        <input placeholder="Должность" type="text" name="post">
+        <input placeholder="Специализация" type="text" name="speciality">
         <button class="button_add">Добавить</a></button>
     </form>
 </div>

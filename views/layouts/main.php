@@ -46,12 +46,11 @@ else:
     else:
         ?>
         <header>
-            <nav class="nav_employees">
-                <a href="<?= app()->route->getUrl('/hello') ?>">Приёмы</a>
+            <nav class="nav">
+                <a href="<?= app()->route->getUrl('/hello') ?>">Главная</a>
+                <a href="<?= app()->route->getUrl('/appointment') ?>">Приёмы</a>
                 <a href="<?= app()->route->getUrl('/doctors_1') ?>">Врачи</a>
-                <a href="<?= app()->route->getUrl('/patients_1') ?>">Пачиенты</a>
-                <a href="<?= app()->route->getUrl('/add_doctors') ?>">Добавление врача</a>
-                <a href="<?= app()->route->getUrl('/add_patients') ?>">Добавление пачиента</a>
+                <a href="<?= app()->route->getUrl('/patients_1') ?>">Пациенты</a>
                 <a href="<?= app()->route->getUrl('/logout') ?>">Выход </a>
             </nav>
         </header>
