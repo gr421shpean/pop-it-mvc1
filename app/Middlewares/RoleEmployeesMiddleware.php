@@ -11,7 +11,7 @@ class RoleEmployeesMiddleware
     {
         //Если пользователь админ, то редирект на главную страницу админа
         if (Auth::checkRole()) {
-            app()->route->redirect('/hello');
+            app()->route->redirect('/signup');
         }
     }
 }

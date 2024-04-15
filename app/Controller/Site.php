@@ -21,18 +21,18 @@ class Site
 
     public function hello(): string
     {
-        return new View('site.hello', ['message' => 'hello working']);
+        return new View('site.hello', ['message' => 'Добро пожаловать!']);
     }
 
 
 
-    public function signup(Request $request): string
-    {
-        if ($request->method === 'POST' && User::create($request->all())) {
-            app()->route->redirect('/hello');
-        }
-        return new View('site.signup');
-    }
+//    public function signup(Request $request): string
+//    {
+//        if ($request->method === 'POST' && User::create($request->all())) {
+//            app()->route->redirect('/hello');
+//        }
+//        return new View('site.signup');
+//    }
 
     public function login(Request $request): string
     {
@@ -53,12 +53,39 @@ class Site
         Auth::logout();
         app()->route->redirect('/hello');
     }
-    public function doctors(Request $request): string
+    public function doctors_1(Request $request): string
     {
-        
-        return new View('site.doctors');
+        if ($request->method === 'GET') {
+            return new View('site.doctors_1');
+        }
+        return new View('site.doctors_1');
 
     }
+    public function add_doctors(): string
+    {
+
+        return new View('site.add_doctors');
+
+    }
+    public function add_patients(): string
+    {
+
+        return new View('site.add_patients');
+
+    }
+    public function patients_1(): string
+    {
+
+        return new View('site.patients_1');
+
+    }
+    public function appointment(): string
+    {
+
+        return new View('site.appointment');
+
+    }
+
 
 
 

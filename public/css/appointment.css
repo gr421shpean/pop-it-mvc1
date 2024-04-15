@@ -1,0 +1,27 @@
+.appointment{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.appointment_carts{
+    display: flex;
+
+    flex-direction: column;
+    gap: 1px;
+    font-size: 35px;
+    width: 700px;
+    height: 450px;
+    background-color: white;
+}
+
+.carts{
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+    flex-direction: row;
+    gap: 15px;
+
+}

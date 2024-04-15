@@ -1,8 +1,6 @@
 
 
-
-
-main{
+div{
     display: flex;
     height: 820px;
     justify-content: center;
@@ -42,4 +40,3 @@ input {
 
 
 }
-

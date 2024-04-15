@@ -1,0 +1,19 @@
+.patients_1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.patients_1_carts{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 35px;
+    width: 900px;
+    height: 100px;
+    background-color: white;
+}
